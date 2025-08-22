@@ -1,53 +1,53 @@
 {
-    "name": "cloudcreativity/json-api-testing",
-    "description": "PHPUnit test helpers to check JSON API documents.",
-    "keywords": [
-        "jsonapi.org",
-        "json-api",
-        "jsonapi",
-        "cloudcreativity",
-        "json",
-        "api"
-    ],
-    "homepage": "https://github.com/cloudcreativity/json-api",
-    "support": {
-        "issues": "https://github.com/cloudcreativity/json-api/issues"
+  "name": "cloudcreativity/json-api-testing",
+  "description": "PHPUnit test helpers to check JSON API documents.",
+  "keywords": [
+    "jsonapi.org",
+    "json-api",
+    "jsonapi",
+    "cloudcreativity",
+    "json",
+    "api"
+  ],
+  "homepage": "https://github.com/cloudcreativity/json-api",
+  "support": {
+    "issues": "https://github.com/cloudcreativity/json-api/issues"
+  },
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Cloud Creativity Ltd",
+      "email": "info@cloudcreativity.co.uk"
     },
-    "license": "Apache-2.0",
-    "authors": [
-        {
-            "name": "Cloud Creativity Ltd",
-            "email": "info@cloudcreativity.co.uk"
-        },
-        {
-            "name": "Michael Dyrynda",
-            "email": "michael@dyrynda.com.au"
-        }
-    ],
-    "require": {
-        "php": "^8.1",
-        "ext-json": "*",
-        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
-        "phpunit/phpunit": "^7.5.15|^8.4|^9.3.3|^10.0|^11.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "CloudCreativity\\JsonApi\\Testing\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "CloudCreativity\\JsonApi\\Testing\\": "tests/"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-develop": "2.x-dev"
-        }
-    },
-    "minimum-stability": "stable",
-    "prefer-stable": true,
-    "config": {
-        "sort-packages": true
+    {
+      "name": "Michael Dyrynda",
+      "email": "michael@dyrynda.com.au"
     }
+  ],
+  "require": {
+    "php": "^8.1",
+    "ext-json": "*",
+    "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0",
+    "phpunit/phpunit": "^7.5.15|^8.4|^9.3.3|^10.0|^11.0|^12.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CloudCreativity\\JsonApi\\Testing\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CloudCreativity\\JsonApi\\Testing\\": "tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-develop": "2.x-dev"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true
+  }
 }
